@@ -487,7 +487,7 @@
                 spinner.style.display = "block";
                 btn.disabled = true;
 
-                fetch("https://script.google.com/macros/s/AKfycbzA-AxWUX-M0Av2197Jx15zWLwPHo7goGvP5RW9YMLh6zpNhKDOJp4pJrJUPtNIf2E0ig/exec", {
+                fetch("https://script.google.com/macros/s/AKfycbz-9za8KZDEr690CordlOIHRhD_LAfdocfY5zgwADX8pVmwALJFn3XjvJYMikbYLnWy/exec", {
                     method: 'POST', mode: 'no-cors',
                     body: JSON.stringify({ name: nInp.value, email: document.getElementById('e').value, amount: document.getElementById('a').value, method: document.getElementById('m').value, trx: tInp.value.trim() })
                 }).then(() => {
